@@ -1,1 +1,0 @@
-/usr/bin/c++   -fsanitize=address,undefined,return -Wall --std=c++17 -g   CMakeFiles/circular_buffer_simple.dir/main.cpp.o  -o circular_buffer_simple 

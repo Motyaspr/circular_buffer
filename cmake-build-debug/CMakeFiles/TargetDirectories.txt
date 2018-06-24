@@ -1,3 +1,0 @@
-/home/motyaspr/CLionProjects/circular_buffer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/motyaspr/CLionProjects/circular_buffer/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/motyaspr/CLionProjects/circular_buffer/cmake-build-debug/CMakeFiles/CIRCULAR_BUFFER.dir
