@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/motyaspr/CLionProjects/circular_buffer/circularbuffer.h
+cstddef
+-
+algorithm
+-
+
+/home/motyaspr/CLionProjects/circular_buffer/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+circularbuffer.h
+/home/motyaspr/CLionProjects/circular_buffer/circularbuffer.h
+
