@@ -2,8 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="circular_buffer" targetName="circular_buffer_hard" />
-      <config projectName="circular_buffer" targetName="circular_buffer_simple" />
+      <config projectName="CIRCULAR_BUFFER" targetName="CIRCULAR_BUFFER" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,10 +12,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="281b1bb3-d9ce-4abe-921b-c23ae34f1e36" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/circularbuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/circularbuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/circular_buffer_hard.dir/testing.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/circular_buffer_hard.dir/testing.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/circular_buffer_hard" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/circular_buffer_hard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/testing.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/counted.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/counted.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fault_injection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fault_injection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,47 +38,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="circularbuffer.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/circularbuffer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="178" column="35" selection-start-line="178" selection-start-column="35" selection-end-line="178" selection-end-column="35" />
+            <state relative-caret-position="-1258">
+              <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
               <folding>
                 <element signature="e#127#145#0" expanded="true" />
+                <element signature="e#3029#3042#0" expanded="true" />
+                <element signature="e#5315#5327#0" expanded="true" />
+                <element signature="e#5445#5457#0" expanded="true" />
+                <element signature="e#5575#5587#0" expanded="true" />
+                <element signature="e#5675#5687#0" expanded="true" />
+                <element signature="e#5751#5763#0" expanded="true" />
+                <element signature="e#5823#5835#0" expanded="true" />
+                <element signature="e#6057#6069#0" expanded="true" />
+                <element signature="e#6246#6258#0" expanded="true" />
+                <element signature="e#6573#6585#0" expanded="true" />
+                <element signature="e#6708#6720#0" expanded="true" />
+                <element signature="e#7104#7116#0" expanded="true" />
+                <element signature="e#7254#7266#0" expanded="true" />
+                <element signature="e#7407#7419#0" expanded="true" />
+                <element signature="e#7514#7526#0" expanded="true" />
+                <element signature="e#7625#7637#0" expanded="true" />
+                <element signature="e#7709#7721#0" expanded="true" />
+                <element signature="e#7786#7798#0" expanded="true" />
+                <element signature="e#7914#7926#0" expanded="true" />
+                <element signature="e#7990#8002#0" expanded="true" />
+                <element signature="e#8104#8116#0" expanded="true" />
+                <element signature="e#8206#8218#0" expanded="true" />
+                <element signature="e#8294#8306#0" expanded="true" />
+                <element signature="e#8382#8394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="counted.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/counted.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="counted.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/counted.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gtest.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gtest/gtest.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339498">
-              <caret line="18861" selection-start-line="18861" selection-end-line="18861" />
+            <state relative-caret-position="90">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -74,55 +88,31 @@
       <file leaf-file-name="stl_set.h" pinned="false" current-in-tab="false">
         <entry file="file:///usr/include/c++/5/bits/stl_set.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12474">
-              <caret line="693" selection-start-line="693" selection-end-line="693" />
+            <state relative-caret-position="170">
+              <caret line="493" selection-start-line="493" selection-end-line="493" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stl_tree.h" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/c++/5/bits/stl_tree.h">
+      <file leaf-file-name="move.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/5/bits/move.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5688">
-              <caret line="316" selection-start-line="316" selection-end-line="316" />
+            <state relative-caret-position="116">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#97#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fault_injection.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fault_injection.h">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="testing.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="331" column="16" lean-forward="true" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="gtest-all.cc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gtest/gtest-all.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64134">
-              <caret line="3563" selection-start-line="3563" selection-end-line="3563" />
+            <state relative-caret-position="187">
+              <caret line="3817" selection-start-line="3817" selection-end-line="3817" />
             </state>
           </provider>
         </entry>
@@ -142,6 +132,7 @@
       <find>front()</find>
       <find>insert_mid</find>
       <find>copy_ctr</find>
+      <find>insert_mi</find>
       <find>insert</find>
     </findStrings>
     <replaceStrings>
@@ -156,11 +147,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/counted.cpp" />
         <option value="$PROJECT_DIR$/testing.cpp" />
         <option value="$PROJECT_DIR$/circularbuffer.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -190,7 +181,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="circular_buffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CIRCULAR_BUFFER" type="b2602c69:ProjectViewProjectNode" />
               <item name="circular_buffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -219,20 +210,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Google Test.Unnamed">
-    <configuration name="Unnamed" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="circular_buffer" TARGET_NAME="circular_buffer_hard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="circular_buffer" RUN_TARGET_NAME="circular_buffer_hard" TEST_MODE="SUITE_TEST" />
-    <configuration name="correctness.back_front" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="circular_buffer" TARGET_NAME="circular_buffer_hard" RUN_TARGET_PROJECT_NAME="circular_buffer" RUN_TARGET_NAME="circular_buffer_hard" TEST_CLASS="correctness" TEST_METHOD="back_front" TEST_MODE="SUITE_TEST" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="circular_buffer" RUN_TARGET_NAME="circular_buffer" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="circular_buffer_hard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="circular_buffer" TARGET_NAME="circular_buffer_hard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="circular_buffer" RUN_TARGET_NAME="circular_buffer_hard" />
-    <configuration name="circular_buffer_simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="circular_buffer" TARGET_NAME="circular_buffer_simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="circular_buffer" RUN_TARGET_NAME="circular_buffer_simple" />
+    <configuration name="Unnamed" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIRCULAR_BUFFER" TARGET_NAME="circular_buffer_hard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIRCULAR_BUFFER" RUN_TARGET_NAME="circular_buffer_hard" TEST_MODE="SUITE_TEST" />
+    <configuration name="correctness.back_front" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIRCULAR_BUFFER" TARGET_NAME="circular_buffer_hard" RUN_TARGET_PROJECT_NAME="CIRCULAR_BUFFER" RUN_TARGET_NAME="circular_buffer_hard" TEST_CLASS="correctness" TEST_METHOD="back_front" TEST_MODE="SUITE_TEST" />
+    <configuration name="fault_injection.copy_ctr" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIRCULAR_BUFFER" TARGET_NAME="circular_buffer_hard" RUN_TARGET_PROJECT_NAME="CIRCULAR_BUFFER" RUN_TARGET_NAME="circular_buffer_hard" TEST_CLASS="fault_injection" TEST_METHOD="copy_ctr" TEST_MODE="SUITE_TEST" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIRCULAR_BUFFER" RUN_TARGET_NAME="circular_buffer" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="CIRCULAR_BUFFER" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CIRCULAR_BUFFER" TARGET_NAME="CIRCULAR_BUFFER" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CIRCULAR_BUFFER" RUN_TARGET_NAME="CIRCULAR_BUFFER" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.circular_buffer_hard" />
-      <item itemvalue="Application.circular_buffer_simple" />
       <item itemvalue="Google Test.Unnamed" />
       <item itemvalue="Google Test.correctness.back_front" />
+      <item itemvalue="Google Test.fault_injection.copy_ctr" />
+      <item itemvalue="Application.CIRCULAR_BUFFER" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.fault_injection.copy_ctr" />
         <item itemvalue="Google Test.correctness.back_front" />
       </list>
     </recent_temporary>
@@ -248,60 +240,60 @@
       <option name="presentableId" value="Default" />
       <updated>1529784961446</updated>
       <workItem from="1529784964996" duration="23108000" />
-      <workItem from="1529845150230" duration="411000" />
+      <workItem from="1529845150230" duration="3918000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.06.24 at 15h 25m 38s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 40m 12s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.06.24 at 15h 26m 02s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 42m 24s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.06.24 at 15h 30m 44s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 43m 12s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correctness_back_front - 2018.06.24 at 15h 32m 19s.xml">
-      <configuration name="correctness.back_front" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="correctness_back_front - 2018.06.24 at 15h 33m 31s.xml">
-      <configuration name="correctness.back_front" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="correctness_back_front - 2018.06.24 at 16h 00m 39s.xml">
-      <configuration name="correctness.back_front" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.24 at 16h 00m 46s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 43m 39s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.06.24 at 16h 03m 46s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 47m 34s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.06.24 at 16h 05m 06s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 48m 04s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2018.06.24 at 16h 05m 24s.xml">
+    <history-entry file="Unnamed - 2018.06.24 at 16h 51m 13s.xml">
+      <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.06.24 at 16h 52m 01s.xml">
+      <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.06.24 at 16h 56m 04s.xml">
+      <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Unnamed - 2018.06.24 at 16h 59m 49s.xml">
       <configuration name="Unnamed" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23519000" />
+    <option name="totallyTimeSpent" value="27026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980783" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32831326" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.32882884" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32831326" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32831326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993994" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -319,15 +311,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/testing.cpp</url>
-          <line>97</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="c.data-&gt;instances[0]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/circularbuffer.h">
@@ -336,6 +326,30 @@
           <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
           <folding>
             <element signature="e#127#145#0" expanded="true" />
+            <element signature="e#3029#3042#0" expanded="true" />
+            <element signature="e#5315#5327#0" expanded="true" />
+            <element signature="e#5445#5457#0" expanded="true" />
+            <element signature="e#5575#5587#0" expanded="true" />
+            <element signature="e#5675#5687#0" expanded="true" />
+            <element signature="e#5751#5763#0" expanded="true" />
+            <element signature="e#5823#5835#0" expanded="true" />
+            <element signature="e#6057#6069#0" expanded="true" />
+            <element signature="e#6246#6258#0" expanded="true" />
+            <element signature="e#6573#6585#0" expanded="true" />
+            <element signature="e#6708#6720#0" expanded="true" />
+            <element signature="e#7104#7116#0" expanded="true" />
+            <element signature="e#7254#7266#0" expanded="true" />
+            <element signature="e#7407#7419#0" expanded="true" />
+            <element signature="e#7514#7526#0" expanded="true" />
+            <element signature="e#7625#7637#0" expanded="true" />
+            <element signature="e#7709#7721#0" expanded="true" />
+            <element signature="e#7786#7798#0" expanded="true" />
+            <element signature="e#7914#7926#0" expanded="true" />
+            <element signature="e#7990#8002#0" expanded="true" />
+            <element signature="e#8104#8116#0" expanded="true" />
+            <element signature="e#8206#8218#0" expanded="true" />
+            <element signature="e#8294#8306#0" expanded="true" />
+            <element signature="e#8382#8394#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -382,9 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#97#121#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,38 +419,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/move.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/5/bits/stl_set.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12474">
-          <caret line="693" selection-start-line="693" selection-end-line="693" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/c++/5/bits/stl_tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5688">
           <caret line="316" selection-start-line="316" selection-end-line="316" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/gtest-all.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64134">
-          <caret line="3563" selection-start-line="3563" selection-end-line="3563" />
         </state>
       </provider>
     </entry>
@@ -453,16 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <element signature="e#97#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/counted.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -470,35 +443,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gtest/gtest-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="3817" selection-start-line="3817" selection-end-line="3817" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stl_set.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="493" selection-start-line="493" selection-end-line="493" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/counted.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circularbuffer.h">
+    <entry file="file://$PROJECT_DIR$/fault_injection.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="178" column="35" selection-start-line="178" selection-start-column="35" selection-end-line="178" selection-end-column="35" />
-          <folding>
-            <element signature="e#127#145#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="331" column="16" lean-forward="true" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
+        <state relative-caret-position="131">
+          <caret line="494" column="42" selection-start-line="494" selection-start-column="42" selection-end-line="494" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circularbuffer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258">
+          <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
+          <folding>
+            <element signature="e#127#145#0" expanded="true" />
+            <element signature="e#3029#3042#0" expanded="true" />
+            <element signature="e#5315#5327#0" expanded="true" />
+            <element signature="e#5445#5457#0" expanded="true" />
+            <element signature="e#5575#5587#0" expanded="true" />
+            <element signature="e#5675#5687#0" expanded="true" />
+            <element signature="e#5751#5763#0" expanded="true" />
+            <element signature="e#5823#5835#0" expanded="true" />
+            <element signature="e#6057#6069#0" expanded="true" />
+            <element signature="e#6246#6258#0" expanded="true" />
+            <element signature="e#6573#6585#0" expanded="true" />
+            <element signature="e#6708#6720#0" expanded="true" />
+            <element signature="e#7104#7116#0" expanded="true" />
+            <element signature="e#7254#7266#0" expanded="true" />
+            <element signature="e#7407#7419#0" expanded="true" />
+            <element signature="e#7514#7526#0" expanded="true" />
+            <element signature="e#7625#7637#0" expanded="true" />
+            <element signature="e#7709#7721#0" expanded="true" />
+            <element signature="e#7786#7798#0" expanded="true" />
+            <element signature="e#7914#7926#0" expanded="true" />
+            <element signature="e#7990#8002#0" expanded="true" />
+            <element signature="e#8104#8116#0" expanded="true" />
+            <element signature="e#8206#8218#0" expanded="true" />
+            <element signature="e#8294#8306#0" expanded="true" />
+            <element signature="e#8382#8394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

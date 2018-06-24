@@ -45,6 +45,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/circular_buffer_hard.dir/DependInfo.cmake"
-  "CMakeFiles/circular_buffer_simple.dir/DependInfo.cmake"
+  "CMakeFiles/CIRCULAR_BUFFER.dir/DependInfo.cmake"
   )

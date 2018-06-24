@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+CIRCULAR_BUFFER_BINARY_DIR:STATIC=/home/motyaspr/CLionProjects/circular_buffer/cmake-build-debug
+
+//Value Computed by CMake
+CIRCULAR_BUFFER_SOURCE_DIR:STATIC=/home/motyaspr/CLionProjects/circular_buffer
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -137,7 +143,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=circular_buffer
+CMAKE_PROJECT_NAME:STATIC=CIRCULAR_BUFFER
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

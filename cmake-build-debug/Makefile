@@ -111,138 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named circular_buffer_hard
+# Target rules for targets named CIRCULAR_BUFFER
 
 # Build rule for target.
-circular_buffer_hard: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 circular_buffer_hard
-.PHONY : circular_buffer_hard
+CIRCULAR_BUFFER: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CIRCULAR_BUFFER
+.PHONY : CIRCULAR_BUFFER
 
 # fast build rule for target.
-circular_buffer_hard/fast:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/build
-.PHONY : circular_buffer_hard/fast
-
-#=============================================================================
-# Target rules for targets named circular_buffer_simple
-
-# Build rule for target.
-circular_buffer_simple: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 circular_buffer_simple
-.PHONY : circular_buffer_simple
-
-# fast build rule for target.
-circular_buffer_simple/fast:
-	$(MAKE) -f CMakeFiles/circular_buffer_simple.dir/build.make CMakeFiles/circular_buffer_simple.dir/build
-.PHONY : circular_buffer_simple/fast
-
-counted.o: counted.cpp.o
-
-.PHONY : counted.o
-
-# target to build an object file
-counted.cpp.o:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/counted.cpp.o
-.PHONY : counted.cpp.o
-
-counted.i: counted.cpp.i
-
-.PHONY : counted.i
-
-# target to preprocess a source file
-counted.cpp.i:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/counted.cpp.i
-.PHONY : counted.cpp.i
-
-counted.s: counted.cpp.s
-
-.PHONY : counted.s
-
-# target to generate assembly for a file
-counted.cpp.s:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/counted.cpp.s
-.PHONY : counted.cpp.s
-
-fault_injection.o: fault_injection.cpp.o
-
-.PHONY : fault_injection.o
-
-# target to build an object file
-fault_injection.cpp.o:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/fault_injection.cpp.o
-.PHONY : fault_injection.cpp.o
-
-fault_injection.i: fault_injection.cpp.i
-
-.PHONY : fault_injection.i
-
-# target to preprocess a source file
-fault_injection.cpp.i:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/fault_injection.cpp.i
-.PHONY : fault_injection.cpp.i
-
-fault_injection.s: fault_injection.cpp.s
-
-.PHONY : fault_injection.s
-
-# target to generate assembly for a file
-fault_injection.cpp.s:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/fault_injection.cpp.s
-.PHONY : fault_injection.cpp.s
-
-gtest/gtest-all.o: gtest/gtest-all.cc.o
-
-.PHONY : gtest/gtest-all.o
-
-# target to build an object file
-gtest/gtest-all.cc.o:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/gtest/gtest-all.cc.o
-.PHONY : gtest/gtest-all.cc.o
-
-gtest/gtest-all.i: gtest/gtest-all.cc.i
-
-.PHONY : gtest/gtest-all.i
-
-# target to preprocess a source file
-gtest/gtest-all.cc.i:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/gtest/gtest-all.cc.i
-.PHONY : gtest/gtest-all.cc.i
-
-gtest/gtest-all.s: gtest/gtest-all.cc.s
-
-.PHONY : gtest/gtest-all.s
-
-# target to generate assembly for a file
-gtest/gtest-all.cc.s:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/gtest/gtest-all.cc.s
-.PHONY : gtest/gtest-all.cc.s
-
-gtest/gtest_main.o: gtest/gtest_main.cc.o
-
-.PHONY : gtest/gtest_main.o
-
-# target to build an object file
-gtest/gtest_main.cc.o:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/gtest/gtest_main.cc.o
-.PHONY : gtest/gtest_main.cc.o
-
-gtest/gtest_main.i: gtest/gtest_main.cc.i
-
-.PHONY : gtest/gtest_main.i
-
-# target to preprocess a source file
-gtest/gtest_main.cc.i:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/gtest/gtest_main.cc.i
-.PHONY : gtest/gtest_main.cc.i
-
-gtest/gtest_main.s: gtest/gtest_main.cc.s
-
-.PHONY : gtest/gtest_main.s
-
-# target to generate assembly for a file
-gtest/gtest_main.cc.s:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/gtest/gtest_main.cc.s
-.PHONY : gtest/gtest_main.cc.s
+CIRCULAR_BUFFER/fast:
+	$(MAKE) -f CMakeFiles/CIRCULAR_BUFFER.dir/build.make CMakeFiles/CIRCULAR_BUFFER.dir/build
+.PHONY : CIRCULAR_BUFFER/fast
 
 main.o: main.cpp.o
 
@@ -250,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/circular_buffer_simple.dir/build.make CMakeFiles/circular_buffer_simple.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/CIRCULAR_BUFFER.dir/build.make CMakeFiles/CIRCULAR_BUFFER.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -259,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/circular_buffer_simple.dir/build.make CMakeFiles/circular_buffer_simple.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/CIRCULAR_BUFFER.dir/build.make CMakeFiles/CIRCULAR_BUFFER.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -268,35 +147,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/circular_buffer_simple.dir/build.make CMakeFiles/circular_buffer_simple.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/CIRCULAR_BUFFER.dir/build.make CMakeFiles/CIRCULAR_BUFFER.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-testing.o: testing.cpp.o
-
-.PHONY : testing.o
-
-# target to build an object file
-testing.cpp.o:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/testing.cpp.o
-.PHONY : testing.cpp.o
-
-testing.i: testing.cpp.i
-
-.PHONY : testing.i
-
-# target to preprocess a source file
-testing.cpp.i:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/testing.cpp.i
-.PHONY : testing.cpp.i
-
-testing.s: testing.cpp.s
-
-.PHONY : testing.s
-
-# target to generate assembly for a file
-testing.cpp.s:
-	$(MAKE) -f CMakeFiles/circular_buffer_hard.dir/build.make CMakeFiles/circular_buffer_hard.dir/testing.cpp.s
-.PHONY : testing.cpp.s
 
 # Help Target
 help:
@@ -306,26 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... circular_buffer_hard"
-	@echo "... circular_buffer_simple"
-	@echo "... counted.o"
-	@echo "... counted.i"
-	@echo "... counted.s"
-	@echo "... fault_injection.o"
-	@echo "... fault_injection.i"
-	@echo "... fault_injection.s"
-	@echo "... gtest/gtest-all.o"
-	@echo "... gtest/gtest-all.i"
-	@echo "... gtest/gtest-all.s"
-	@echo "... gtest/gtest_main.o"
-	@echo "... gtest/gtest_main.i"
-	@echo "... gtest/gtest_main.s"
+	@echo "... CIRCULAR_BUFFER"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... testing.o"
-	@echo "... testing.i"
-	@echo "... testing.s"
 .PHONY : help
 
 

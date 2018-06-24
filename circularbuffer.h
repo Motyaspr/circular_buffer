@@ -113,7 +113,7 @@ public:
         }
         template <typename V2>
         my_iterator(const my_iterator<V2> &other,
-                         typename std::enable_if<std::is_same<V, const V2>::value>::type * = nullptr)
+                    typename std::enable_if<std::is_same<V, const V2>::value>::type * = nullptr)
                 : st(other.st)
                 , ind(other.ind)
                 , data(other.data)
@@ -168,27 +168,27 @@ public:
         if (ind <= sz / 2){
             push_front(value);
             for (size_t i = 0; i < ind; i++) {
-                std::swap(data[i], data[next(i)]);
+                std::swap((*this)[i], (*this)[i + 1]);
             }
         }else{
             push_back(value);
             for (size_t i = sz - 1; i > ind; i--){
-                std::swap(data[i], data[prev(i)]);
+                std::swap((*this)[i], (*this)[i - 1]);
             }
         }
-        return iterator(data, ind - 1, capacity, start);
+        return iterator(data, ind, capacity, start);
     }
 
     iterator erase(const_iterator pos_iter){
         int ind = pos_iter.ind;
         if (ind <= sz / 2){
             for (size_t i = ind; i > 0; i--)
-                std::swap(data[i], data[prev(i)]);
+                std::swap((*this)[i], (*this)[i - 1]);
             pop_front();
         }
         else{
             for (size_t i = ind + 1; i < sz; i++)
-                std::swap(data[i], data[i - 1]);
+                std::swap((*this)[i], (*this)[i - 1]);
             pop_back();
         }
         return iterator(data, ind, capacity, start);
@@ -248,7 +248,7 @@ void buffer<T>::ensure_capacity(size_t nsz) {
     cop.last = 0;
     cop.sz = 0;
     for (size_t i = start, ind = 0; i != last; i = next(i), ind++)
-         cop.push_back(data[i]);
+        cop.push_back(data[i]);
     swap(cop);
 }
 
@@ -260,13 +260,13 @@ buffer<T> &buffer<T>::operator=(buffer const &other) {
 }
 
 template<typename T>
-buffer<T>::buffer(buffer const &other) : capacity(other.capacity), sz(other.sz), start(other.start),
-                                         last(other.last), data(nullptr) {
-    if (capacity == 0)
+buffer<T>::buffer(buffer const &other) : buffer() {
+    if (other.capacity == 0)
         return;
+    capacity = other.capacity;
     data = static_cast<T*>(operator new (capacity * sizeof(T)));
-    for (size_t i = start; i != last; i = next(i))
-        new(&data[i]) T(other.data[i]);
+    for (size_t i = other.start; i != other.last; i = next(i))
+        push_back(other.data[i]);
 
 }
 
@@ -281,16 +281,16 @@ void buffer<T>::push_back(const T &a) {
 template<typename T>
 void buffer<T>::push_front(const T &a) {
     ensure_capacity(sz);
+    new(&data[prev(start)]) T(a);
     start = prev(start);
-    new(&data[start]) T(a);
     sz++;
 }
 
 template<typename T>
 void buffer<T>::pop_back() {
     sz--;
+    data[prev(last)].~T();
     last = prev(last);
-    data[last].~T();
 }
 
 template<typename T>
