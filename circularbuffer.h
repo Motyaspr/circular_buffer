@@ -176,7 +176,7 @@ public:
                 std::swap(data[i], data[prev(i)]);
             }
         }
-        return iterator(data, ind, capacity, start);
+        return iterator(data, ind - 1, capacity, start);
     }
 
     iterator erase(const_iterator pos_iter){
@@ -245,10 +245,10 @@ void buffer<T>::ensure_capacity(size_t nsz) {
         return;
     buffer<T> cop = buffer(capacity * 2 + 2);
     cop.start = 0;
-    cop.last = sz;
-    cop.sz = sz;
+    cop.last = 0;
+    cop.sz = 0;
     for (size_t i = start, ind = 0; i != last; i = next(i), ind++)
-        cop[ind] = data[i];
+         cop.push_back(data[i]);
     swap(cop);
 }
 
@@ -266,7 +266,7 @@ buffer<T>::buffer(buffer const &other) : capacity(other.capacity), sz(other.sz),
         return;
     data = static_cast<T*>(operator new (capacity * sizeof(T)));
     for (size_t i = start; i != last; i = next(i))
-        data[i] = other.data[i];
+        new(&data[i]) T(other.data[i]);
 
 }
 

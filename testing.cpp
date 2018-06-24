@@ -96,7 +96,7 @@ TEST(correctness, back_front) {
 
     container c;
     mass_push_back(c, {1, 2, 3, 4, 5});
-    EXPECT_EQ(1, c.frondt());
+    EXPECT_EQ(1, c.front());
     EXPECT_EQ(1, as_const(c).front());
     EXPECT_EQ(5, c.back());
     EXPECT_EQ(5, as_const(c).back());
